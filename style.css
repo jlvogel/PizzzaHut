@@ -28,13 +28,16 @@ button {
   border-radius: 10px;
 }
 
+#mainPic {
+  width:400px;
+}
 .wingPic {
   width: 450px;
 }
 
 .friesPic {
-  width: 250px;
-  margin-right: 80px;
+  width: 280px;
+  margin-right: 30px;
 }
 
 .dipPic {
