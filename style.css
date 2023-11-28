@@ -1,0 +1,57 @@
+h1 {
+  font-size: 35pt;
+}
+
+h2 {
+  font-size: 25pt;
+}
+
+h3 {
+  font-size: 20pt;
+}
+
+p {
+  font-size: 16pt;
+}
+
+h1, h2, h3 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+button {
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  width: 400px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.wingPic {
+  width: 450px;
+}
+
+.friesPic {
+  width: 250px;
+  margin-right: 80px;
+}
+
+.dipPic {
+  width: 130px;
+}
+
+.wingPic, .friesPic, .dipPic {
+  border-radius: 10px;
+}
+
+.pics {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fire {
+  margin-right: 20px;
+}
